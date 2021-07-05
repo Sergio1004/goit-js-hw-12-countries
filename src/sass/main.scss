@@ -1,7 +1,26 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.searchCountry {
+  justify-content: center;
+}

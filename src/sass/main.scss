@@ -17,10 +17,17 @@ body {
     'Helvetica Neue', sans-serif;
 }
 
+img {
+  max-width: 400px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+
+  width: 600px;
 }
 .searchCountry {
   justify-content: center;
+  width: 250px;
 }
